@@ -22,7 +22,7 @@ var config = {
     chapters: [
         {
             id: 'opening',
-            alignment: 'fully',
+            alignment: 'centered',
             hidden: false,
             title: 'The Color Purple',
             image: './assets/color_purple_cover.jpg',
