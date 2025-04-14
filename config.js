@@ -1,5 +1,5 @@
 var config = {
-    // style: 'mapbox://styles/mapbox/streets-v12',
+    style: 'mapbox://styles/burgerjh/cm98v4e0y001c01qn7swuc8m0',
     // leave commented to use Mapbox Standard Style
     accessToken: 'pk.eyJ1IjoiYnVyZ2VyamgiLCJhIjoiY20yc3IyZXozMDBqdTJ2b3BpY3M3aWNqcCJ9.BRJ_B6H5_MYZ7Q_PBxcaQg',
     showMarkers: true,
@@ -12,7 +12,7 @@ var config = {
         markerColor: 'orange'
     },
     insetPosition: 'bottom-right',
-    theme: 'dark',
+    theme: 'light',
     use3dTerrain: false, //set true for enabling 3D maps.
     auto: false,
     title: 'Your Title Goes Here',
