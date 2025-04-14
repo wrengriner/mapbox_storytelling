@@ -2,7 +2,7 @@ var config = {
     style: 'mapbox://styles/burgerjh/cm98v4e0y001c01qn7swuc8m0',
     // leave commented to use Mapbox Standard Style
     accessToken: 'pk.eyJ1IjoiYnVyZ2VyamgiLCJhIjoiY20yc3IyZXozMDBqdTJ2b3BpY3M3aWNqcCJ9.BRJ_B6H5_MYZ7Q_PBxcaQg',
-    showMarkers: true,
+    showMarkers: false,
     markerColor: '#3FB1CE',
     //projection: 'equirectangular',
     //Read more about available projections here
@@ -15,9 +15,9 @@ var config = {
     theme: 'light',
     use3dTerrain: false, //set true for enabling 3D maps.
     auto: false,
-    title: 'Your Title Goes Here',
-    subtitle: 'The Storytelling Template helps you create an awesome animated map story with ease.',
-    byline: 'By a I.M. Amapper',
+    title: 'Color Purple Essay',
+    subtitle: 'Spatial Journeys across the South',
+    byline: 'My Name',
     footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
     chapters: [
         {
@@ -103,7 +103,7 @@ var config = {
             description: 'Close of the novel.',
             location: {
                 center: [-41.47212410646295, 34.781162343274076], 
-                zoom: 2,
+                zoom: 3,
                 pitch: 30,
                 bearing: 0
             },
