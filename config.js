@@ -25,7 +25,7 @@ var config = {
             alignment: 'fully',
             hidden: false,
             title: 'The Color Purple',
-            image: './assets/color_purple_cover.jpeg',
+            image: './assets/color_purple_cover.jpg',
             description: 'This is where I insert a description of the novel',
             location: {
                 center: [-90.3150946, 38.6605671],
@@ -84,8 +84,8 @@ var config = {
             description: 'Description of the Olinka people',
             location: {
                 center: [-10.378889436404226, 6.251275915595865], 
-                zoom: 12.52,
-                pitch: 8.01,
+                zoom: 8.00,
+                pitch: 45.0,
                 bearing: 0.00
             },
             mapAnimation: 'flyTo',
@@ -103,7 +103,7 @@ var config = {
             description: 'Close of the novel.',
             location: {
                 center: [-41.47212410646295, 34.781162343274076], 
-                zoom: 4,
+                zoom: 2,
                 pitch: 30,
                 bearing: 0
             },
