@@ -58,7 +58,7 @@ var config = {
             image: './assets/alice_walker_childhood_home.jpg',
             description: 'Description of the second location.',
             location: {
-                center: [-83.5573651, -32.5573651], 
+                center: [-83.5573651, 32.5573651], 
                 zoom: 6.5,
                 pitch: 60,
                 bearing: -43.2,
