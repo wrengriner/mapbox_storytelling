@@ -437,6 +437,8 @@
 
             if (!color) return;
 
+            console.log(color)
+
             // Handle rgba() or rgb() expressions
             if (Array.isArray(color)) {
                 if (color[0] === 'rgba' || color[0] === 'rgb') {
@@ -447,7 +449,7 @@
             }
 
             const label = layerNameMap[layer.id] || layer.id;
-
+            console.log(color, label)
             const item = document.createElement('div');
             item.innerHTML = `<span class="legend-key" style="background-color: ${color};"></span>${label}`;
             legend.appendChild(item);
