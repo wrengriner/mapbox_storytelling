@@ -124,6 +124,29 @@
             
         }
 
+        #legend {
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #333;
+    z-index: 10;
+    border-radius: 4px;
+    max-width: 200px;
+}
+
+.legend-key {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+}
+
         @media (max-width: 750px) {
 
             .centered,
@@ -146,6 +169,7 @@
 <body>
 
     <div id="map"></div>
+    <div id="legend" class="map-overlay legend light"></div>
     <div id="story"></div>
 
     <script src="./config.js"></script>
@@ -375,6 +399,47 @@
                 document.querySelectorAll('[data-scrollama-index="0"]')[0].scrollIntoView();
             }
         });    
+
+        function generateLegendFromLayer(layerId, paintProperty = 'fill-color') {
+    const paint = map.getPaintProperty(layerId, paintProperty);
+
+    const legend = document.getElementById('legend');
+    legend.innerHTML = '<h4>Legend</h4>';
+
+    if (!Array.isArray(paint)) {
+        legend.innerHTML += '<p>No legend info available.</p>';
+        return;
+    }
+
+    const type = paint[0]; // usually 'match' or 'step'
+    const property = paint[1];
+
+    if (type === 'match') {
+        // match expression: ['match', ['get', 'category'], 'A', '#f00', 'B', '#0f0', 'default']
+        for (let i = 2; i < paint.length - 1; i += 2) {
+            const label = paint[i];
+            const color = paint[i + 1];
+            const item = document.createElement('div');
+            item.innerHTML = `<span class="legend-key" style="background-color: ${color};"></span>${label}`;
+            legend.appendChild(item);
+        }
+    } else if (type === 'step') {
+        // step expression: ['step', ['get', 'value'], '#ccc', 10, '#f00', 20, '#0f0']
+        for (let i = 2; i < paint.length; i += 2) {
+            const label = i === 2 ? `≤ ${paint[i]}` : `> ${paint[i - 2]} to ≤ ${paint[i]}`;
+            const color = paint[i + 1];
+            const item = document.createElement('div');
+            item.innerHTML = `<span class="legend-key" style="background-color: ${paint[i - 1]};"></span>${label}`;
+            legend.appendChild(item);
+        }
+    } else {
+        legend.innerHTML += '<p>Legend type not supported.</p>';
+    }
+
+
+}
+
+generateLegendFromLayer('thematic-layer', 'fill-color');
 
     </script>
 
