@@ -347,9 +347,8 @@
             };
 
             map.once('idle', () => {
-        generateLegendFromLayer('thematic-layer', 'fill-color');
-    });
-
+    generateLegendFromVisibleLayers();
+});
 
 
             // setup the instance, pass callback functions
