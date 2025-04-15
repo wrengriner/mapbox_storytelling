@@ -420,7 +420,7 @@
 console.log(layers)
     layers.forEach(layer => {
         const visibility = map.getLayoutProperty(layer.id, 'visibility');
-        if (visibility !== 'visible') return;
+        if (visibility === 'none') return;
 
         let color = null;
 
