@@ -448,7 +448,7 @@ console.log(type)
                 }
             }
 
-            const label = layerNameMap[layer.id] || layer.id;
+            const label = layer.id;
             console.log(color, label)
             const item = document.createElement('div');
             item.innerHTML = `<span class="legend-key" style="background-color: ${color};"></span>${label}`;
