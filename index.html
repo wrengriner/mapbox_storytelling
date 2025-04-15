@@ -415,46 +415,24 @@
         const visibility = map.getLayoutProperty(layer.id, 'visibility');
         if (visibility !== 'visible') return;
 
-        // Determine paint property to use
-        const paint = map.getPaintProperty(layer.id, 'fill-color') ||
+        // Try each paint property type
+        const color = map.getPaintProperty(layer.id, 'fill-color') ||
                       map.getPaintProperty(layer.id, 'circle-color') ||
                       map.getPaintProperty(layer.id, 'line-color');
 
-        if (!paint || !Array.isArray(paint)) return;
-
-        const type = paint[0];
-        if (type !== 'match' && type !== 'step') return;
-
-        // Add layer title
-        const title = document.createElement('div');
-        title.innerHTML = `<strong>${layer.id}</strong>`;
-        legend.appendChild(title);
-
-        if (type === 'match') {
-            // ['match', ['get', 'property'], 'A', '#f00', 'B', '#0f0', 'default']
-            for (let i = 2; i < paint.length - 1; i += 2) {
-                const label = paint[i];
-                const color = paint[i + 1];
-                const item = document.createElement('div');
-                item.innerHTML = `<span class="legend-key" style="background-color: ${color};"></span>${label}`;
-                legend.appendChild(item);
-            }
-        } else if (type === 'step') {
-            // ['step', ['get', 'value'], '#ccc', 10, '#f00', 20, '#0f0']
-            for (let i = 2; i < paint.length; i += 2) {
-                const label = i === 2 ? `≤ ${paint[i]}` : `> ${paint[i - 2]} to ≤ ${paint[i]}`;
-                const color = paint[i + 1];
-                const item = document.createElement('div');
-                item.innerHTML = `<span class="legend-key" style="background-color: ${paint[i - 1]};"></span>${label}`;
-                legend.appendChild(item);
-            }
+        if (typeof color === 'string') {
+            const label = layerNameMap[layer.id] || layer.id;
+            const item = document.createElement('div');
+            item.innerHTML = `<span class="legend-key" style="background-color: ${color};"></span>${label}`;
+            legend.appendChild(item);
         }
     });
 
     if (legend.innerHTML === '<h4>Legend</h4>') {
-        legend.innerHTML += '<p>No visible layer with a supported legend format.</p>';
+        legend.innerHTML += '<p>No visible styled layers.</p>';
     }
 }
+
 
 
 
