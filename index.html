@@ -410,7 +410,7 @@
     legend.innerHTML = '<h4>Legend</h4>';
 
     const layers = map.getStyle().layers;
-
+   console.log(layers)
     layers.forEach(layer => {
         const visibility = map.getLayoutProperty(layer.id, 'visibility');
         if (visibility !== 'visible') return;
@@ -419,7 +419,7 @@
 
         try {
             const type = map.getLayer(layer.id).type;
-
+            console.log("type:" + type)
             if (type === 'fill') {
                 color = map.getPaintProperty(layer.id, 'fill-color');
             } else if (type === 'circle') {
