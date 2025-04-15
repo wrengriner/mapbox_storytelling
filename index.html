@@ -346,6 +346,12 @@
                 });
             };
 
+            map.once('idle', () => {
+        generateLegendFromLayer('thematic-layer', 'fill-color');
+    });
+
+
+
             // setup the instance, pass callback functions
             scroller
                 .setup({
@@ -439,7 +445,7 @@
 
 }
 
-generateLegendFromLayer('thematic-layer', 'fill-color');
+
 
     </script>
 
