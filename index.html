@@ -409,8 +409,15 @@
     const legend = document.getElementById('legend');
     legend.innerHTML = '<h4>Legend</h4>';
 
+    const layerNameMap = {
+        "Male": "Male Purchasers",
+        "Female": "Female Purchasers",
+        "movement-layer": "Movement Locations",
+        // Add more mappings here
+    };
+
     const layers = map.getStyle().layers;
-   console.log(layers)
+
     layers.forEach(layer => {
         const visibility = map.getLayoutProperty(layer.id, 'visibility');
         if (visibility !== 'visible') return;
@@ -419,7 +426,7 @@
 
         try {
             const type = map.getLayer(layer.id).type;
-            console.log("type:" + type)
+
             if (type === 'fill') {
                 color = map.getPaintProperty(layer.id, 'fill-color');
             } else if (type === 'circle') {
@@ -430,12 +437,12 @@
 
             if (!color) return;
 
-            // Handle rgba/rgb expressions
+            // Handle rgba() or rgb() expressions
             if (Array.isArray(color)) {
                 if (color[0] === 'rgba' || color[0] === 'rgb') {
                     color = `${color[0]}(${color.slice(1).join(',')})`;
                 } else {
-                    return; // Skip unsupported expression formats
+                    return; // skip unsupported expressions
                 }
             }
 
@@ -444,6 +451,7 @@
             const item = document.createElement('div');
             item.innerHTML = `<span class="legend-key" style="background-color: ${color};"></span>${label}`;
             legend.appendChild(item);
+
         } catch (err) {
             console.warn(`Could not read paint property for layer "${layer.id}"`, err);
         }
@@ -453,7 +461,6 @@
         legend.innerHTML += '<p>No visible styled layers.</p>';
     }
 }
-
 
 
     </script>
