@@ -415,16 +415,37 @@
         const visibility = map.getLayoutProperty(layer.id, 'visibility');
         if (visibility !== 'visible') return;
 
-        // Try each paint property type
-        const color = map.getPaintProperty(layer.id, 'fill-color') ||
-                      map.getPaintProperty(layer.id, 'circle-color') ||
-                      map.getPaintProperty(layer.id, 'line-color');
+        let color = null;
 
-        if (typeof color === 'string') {
+        try {
+            const type = map.getLayer(layer.id).type;
+
+            if (type === 'fill') {
+                color = map.getPaintProperty(layer.id, 'fill-color');
+            } else if (type === 'circle') {
+                color = map.getPaintProperty(layer.id, 'circle-color');
+            } else if (type === 'line') {
+                color = map.getPaintProperty(layer.id, 'line-color');
+            }
+
+            if (!color) return;
+
+            // Handle rgba/rgb expressions
+            if (Array.isArray(color)) {
+                if (color[0] === 'rgba' || color[0] === 'rgb') {
+                    color = `${color[0]}(${color.slice(1).join(',')})`;
+                } else {
+                    return; // Skip unsupported expression formats
+                }
+            }
+
             const label = layerNameMap[layer.id] || layer.id;
+
             const item = document.createElement('div');
             item.innerHTML = `<span class="legend-key" style="background-color: ${color};"></span>${label}`;
             legend.appendChild(item);
+        } catch (err) {
+            console.warn(`Could not read paint property for layer "${layer.id}"`, err);
         }
     });
 
@@ -432,7 +453,6 @@
         legend.innerHTML += '<p>No visible styled layers.</p>';
     }
 }
-
 
 
 
