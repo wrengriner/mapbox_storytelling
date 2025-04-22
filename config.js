@@ -1,7 +1,7 @@
 var config = {
-    style: 'mapbox://styles/burgerjh/cm98v4e0y001c01qn7swuc8m0',
+    style: 'mapbox://styles/wrengriner1111/cm98v7h3d002h01s8b3jlc561',
     // leave commented to use Mapbox Standard Style
-    accessToken: 'pk.eyJ1IjoiYnVyZ2VyamgiLCJhIjoiY20yc3IyZXozMDBqdTJ2b3BpY3M3aWNqcCJ9.BRJ_B6H5_MYZ7Q_PBxcaQg',
+    accessToken: 'pk.eyJ1Ijoid3JlbmdyaW5lcjExMTEiLCJhIjoiY205OHYxbXoxMDRkbDJrcTkxYmdyMzZxaSJ9.kzhRGXkoBE28TIvTF92YsA',
     showMarkers: false,
     markerColor: '#3FB1CE',
     //projection: 'equirectangular',
@@ -17,7 +17,7 @@ var config = {
     auto: false,
     title: 'Color Purple Essay',
     subtitle: 'Spatial Journeys across the South',
-    byline: 'My Name',
+    byline: 'Wren Griner',
     footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
     chapters: [
         {
