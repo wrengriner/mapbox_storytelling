@@ -25,7 +25,7 @@ var config = {
             alignment: 'centered',
             hidden: false,
             title: 'The Color Purple',
-            image: './assets/cute_cat.jpeg',
+            image: './assets/cute_cat.jpg',
             description: 'This is where I insert a description of the novel',
             location: {
                 center: [-90.3150946, 38.6605671],
