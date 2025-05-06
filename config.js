@@ -1,7 +1,7 @@
 var config = {
-    style: 'mapbox://styles/wrengriner1111/cm98v7h3d002h01s8b3jlc561',
+    style: 'mapbox://styles/hollo2ce/cmacuhejx009801quese1e8qn',
     // leave commented to use Mapbox Standard Style
-    accessToken: 'pk.eyJ1Ijoid3JlbmdyaW5lcjExMTEiLCJhIjoiY205OHYxbXoxMDRkbDJrcTkxYmdyMzZxaSJ9.kzhRGXkoBE28TIvTF92YsA',
+    accessToken: 'pk.eyJ1IjoiaG9sbG8yY2UiLCJhIjoiY205OHR5azRhMDZ0cjJsb25mdXhwNTlzOCJ9.go09KSQGSBTIQF3cpHqXhQ',
     showMarkers: false,
     markerColor: '#3FB1CE',
     //projection: 'equirectangular',
