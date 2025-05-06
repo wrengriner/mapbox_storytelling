@@ -114,4 +114,4 @@ var config = {
             onChapterExit: []
         }
     ]
-};
+}
