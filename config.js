@@ -24,7 +24,7 @@ var config = {
             id: 'opening',
             alignment: 'centered',
             hidden: false,
-            title: 'The Color Purple',
+            title: 'As I Lay Dying',
             image: './assets/cute_cat.jpg',
             description: 'This is where I insert a description of the novel',
             location: {
