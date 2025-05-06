@@ -17,7 +17,7 @@ var config = {
     auto: false,
     title: 'Color Purple Essay',
     subtitle: 'Spatial Journeys across the South',
-    byline: 'Wren Griner',
+    byline: 'Wren Griner and Chloe Holloway',
     footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
     chapters: [
         {
@@ -28,7 +28,7 @@ var config = {
             image: './assets/cute_cat.jpg',
             description: 'This is where I insert a description of the novel',
             location: {
-                center: [-90.3150946, 38.6605671],
+                center: [-89.48848661057376, 34.28249827482276],
                 zoom: 4,
                 pitch: 60,
                 bearing: 0
