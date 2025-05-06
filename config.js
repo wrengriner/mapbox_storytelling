@@ -54,11 +54,11 @@ var config = {
             id: 'chapter-one',
             alignment: 'right',
             hidden: false,
-            title: 'Someplace Georgia',
+            title: 'The Bundren House',
             image: './assets/alice_walker_childhood_home.jpg',
             description: 'Description of the second location.',
             location: {
-                center: [-83.5573651, 32.5573651], 
+                center: [-89.48848661057376, 34.28249827482276], 
                 zoom: 6.5,
                 pitch: 60,
                 bearing: -43.2,
