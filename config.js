@@ -25,7 +25,7 @@ var config = {
             alignment: 'centered',
             hidden: false,
             title: 'As I Lay Dying',
-            image: './dying.jpg',
+            image: './assets/dying.jpg',
             description: 'This is where I insert a description of the novel',
             location: {
                 center: [-89.48848661057376, 34.28249827482276],
