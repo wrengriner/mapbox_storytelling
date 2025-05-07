@@ -96,7 +96,7 @@ var config = {
         },
         {
             id: 'chapter-three',
-            alignment: 'fully',
+            alignment: 'right',
             hidden: false,
             title: 'End',
             image: './assets/color_purple_field.jpg',
@@ -115,7 +115,7 @@ var config = {
         },
         {            
             id: 'chapter-four',
-            alignment: 'fully',
+            alignment: 'left',
             hidden: false,
             title: 'End',
             image: './assets/color_purple_field.jpg',
@@ -134,7 +134,7 @@ var config = {
         },
         {
             id: 'chapter-five',
-            alignment: 'fully',
+            alignment: 'right',
             hidden: false,
             title: 'End',
             image: './assets/color_purple_field.jpg',
@@ -153,7 +153,7 @@ var config = {
         },
         {
             id: 'chapter-six',
-            alignment: 'fully',
+            alignment: 'left',
             hidden: false,
             title: 'End',
             image: './assets/color_purple_field.jpg',
@@ -172,7 +172,7 @@ var config = {
         },
         {
             id: 'chapter-seven',
-            alignment: 'fully',
+            alignment: 'right',
             hidden: false,
             title: 'End',
             image: './assets/color_purple_field.jpg',
@@ -191,7 +191,7 @@ var config = {
         },
         {
             id: 'chapter-eight',
-            alignment: 'fully',
+            alignment: 'left',
             hidden: false,
             title: 'End',
             image: './assets/color_purple_field.jpg',
@@ -210,7 +210,7 @@ var config = {
         },
         {
             id: 'chapter-nine',
-            alignment: 'fully',
+            alignment: 'right',
             hidden: false,
             title: 'End',
             image: './assets/color_purple_field.jpg',
@@ -229,7 +229,7 @@ var config = {
         },
         {
             id: 'chapter-ten',
-            alignment: 'fully',
+            alignment: 'left',
             hidden: false,
             title: 'End',
             image: './assets/color_purple_field.jpg',
@@ -248,7 +248,7 @@ var config = {
         },
         {
             id: 'chapter-eleven',
-            alignment: 'fully',
+            alignment: 'right',
             hidden: false,
             title: 'End',
             image: './assets/color_purple_field.jpg',
@@ -267,7 +267,7 @@ var config = {
         },
         {
             id: 'chapter-twelve',
-            alignment: 'fully',
+            alignment: 'left',
             hidden: false,
             title: 'End',
             image: './assets/color_purple_field.jpg',
@@ -286,7 +286,7 @@ var config = {
         },
         {
             id: 'chapter-thirteen',
-            alignment: 'fully',
+            alignment: 'right',
             hidden: false,
             title: 'End',
             image: './assets/color_purple_field.jpg',
@@ -305,7 +305,7 @@ var config = {
     },
     {
             id: 'chapter-fourteen',
-            alignment: 'fully',
+            alignment: 'left',
             hidden: false,
             title: 'End',
             image: './assets/color_purple_field.jpg',
