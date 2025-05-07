@@ -16,7 +16,7 @@ var config = {
     use3dTerrain: false, //set true for enabling 3D maps.
     auto: false,
     title: 'Final Project',
-    subtitle: 'Spatial Journeys across the South',
+    subtitle: 'Male and female comparison across the south',
     byline: 'Wren Griner and Chloe Holloway',
     footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
     chapters: [
@@ -25,7 +25,7 @@ var config = {
             alignment: 'centered',
             hidden: false,
             title: 'As I Lay Dying',
-            image: './assets/cute_cat.jpg',
+            image: './aild.jpg',
             description: 'This is where I insert a description of the novel',
             location: {
                 center: [-89.48848661057376, 34.28249827482276],
@@ -55,7 +55,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'The Bundren House',
-            image: './assets/alice_walker_childhood_home.jpg',
+            image: './assets/asilaydying.jpg',
             description: 'Description of the second location.',
             location: {
                 center: [-89.48848661057376, 34.28249827482276], 
