@@ -81,7 +81,7 @@ var config = {
             hidden: false,
             title: 'Olinka',
             image: './assets/firestone_farm.jpg',
-            description: 'Description of the Olinka people',
+            description: 'Taking place in the early 20th century, gender norms are still very rigid. Men generally have more autonomy and opportunity, given better income than women. Furthermore, men do not experience sexism as an obstacle. Dewey Dell faces sexism when trying to find a way to terminate her pregnancy. She is objectified and manipulated. The majority of the Bundren family is male—compromising of Anse, Jewel, Darl, Cash, and Vardaman. Assuming Anse is making most purchases as the patriarch of the family, the question raises of why there are so few data points on economic exchange. A key detail is that Bundren family is lower class. Not only are they lower class, they live in a rural area. Hypothetically, almost every purchase made would require major movement to and from the location of purchase.',
             location: {
                 center: [-10.378889436404226, 6.251275915595865], 
                 zoom: 8.00,
