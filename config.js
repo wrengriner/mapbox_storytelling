@@ -24,9 +24,9 @@ var config = {
             id: 'opening',
             alignment: 'centered',
             hidden: false,
-            title: 'As I Lay Dying',
-            image: './assets/dying.jpg',
-            description: 'This is where I insert a description of the novel',
+            title: 'Introduction',
+            image: '',
+            description: 'Within Southern Literature, female authors are more likely to defy the status quo when describing economic activity than male authors. Comparing the protagonists of William Faulkner to those of Zora Neale Hurston, Alice Walker, and Jesmyn Ward highlights the many different forms Southern Literature can take. A common expectation for readers may include a typical American family encountering issues like racism, sexism, or classism. While those themes are prevalent, stories by female authors are much more complex. The following data exemplifies how societal barriers do not necessarily impact economic exchanges and movement to the degree readers would expect, particularly in the realm of gender.',
             location: {
                 center: [-89.48848661057376, 34.28249827482276],
                 zoom: 4,
@@ -56,7 +56,7 @@ var config = {
             hidden: false,
             title: 'The Bundren House',
             image: './assets/asi.jpg',
-            description: 'Description of the second location.',
+            description: 'In As I Lay Dying by William Faulkner, a white lower class family in Mississippi travels from their home to the nearby city of Jefferson over the course of the novel. The data collected from the novel depicts a substantial amount more of movement-based data than economic exchanges. Furthermore,  of the few economic units of data, only one was female. Two major female characters in the novel are Dewey Dell and Addie Bundren, the latter of whom is dead pretty much the entire novel—the plot essentially revolving around the aftermath of that. Because of the lack of female characters, of course there would be more male-made purchases. Considering the fact that Faulkner is male, there might be more context for why that is. For instance, what would a middle class adult white man (Faulkner) know about what a lower class pregnant girl would purchase.',
             location: {
                 center: [-89.48848661057376, 34.28249827482276], 
                 zoom: 6.5,
