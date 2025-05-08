@@ -326,7 +326,7 @@ var config = {
             id: 'chapter-fifteen',
             alignment: 'fully',
             hidden: false,
-            title: 'End',
+            title: 'Conclusion',
             image: './assets/color_purple_field.jpg',
             description: 'Close of the novel.',
             location: {
