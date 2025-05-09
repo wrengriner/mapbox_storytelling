@@ -80,7 +80,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: '',
-            image: './assets/firestone_farm.jpg',
+            image: '',
             description: 'Taking place in the early 20th century, gender norms are still very rigid. Men generally have more autonomy and opportunity, given better income than women. Furthermore, men do not experience sexism as an obstacle. Dewey Dell faces sexism when trying to find a way to terminate her pregnancy. She is objectified and manipulated. The majority of the Bundren family is male—compromising of Anse, Jewel, Darl, Cash, and Vardaman. Assuming Anse is making most purchases as the patriarch of the family, the question raises of why there are so few data points on economic exchange. A key detail is that Bundren family is lower class. Not only are they lower class, they live in a rural area. Hypothetically, almost every purchase made would require major movement to and from the location of purchase.',
             location: {
                 center: [-89.48848661057376, 34.28249827482276], 
@@ -99,7 +99,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'Their Eyes Were Watching God: Orlando',
-            image: './assets/color_purple_field.jpg',
+            image: './assets/tewwg.jpg',
             description: 'Because of the nature of the story, there is a lot more data to interpret for this novel. When looking at economic exchanges for men and women, men tend to buy more goods, and women vary in their purchases. A drawable conclusion from this is that southern men are more materialistic. Furthermore, this novel travels to more urban areas like Orlando. In large cities, more economic opportunities are available. The main plot of this novel surrounds the life of Janie, a lower class black woman who cares more about being happy than being comfortable. Her first marriage was arranged by her grandmother who thought the man, Logan, would provide for her and ensure a safe and secure life. He buys Janie a donkey, among other material things, however he never shows love for her. He treats her more like domestic help than a wife.',
             location: {
                 center: [-81.39224619001222, 28.54026337989474], 
@@ -232,7 +232,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: '',
-            image: './assets/color_purple_field.jpg',
+            image: '',
             description: 'Similar to As I Lay Dying, there is movement required for most economic purchases. Jesmyn Ward intentionally takes inspiration from Faulkner’s classic, and that is evident in the fact that there are few female characters in this novel at all. Esch, the protagonist and one of the only women in the entire novel, is clearly inspired by Dewey Dell. However, the main difference between the two girls is how the author’s depict them. Despite being limited by her class and the obstacle of a teen pregnancy, Esch still exhibits autonomy and confidence in her decisions, especially given that she serves as the first person narrator of the novel.',
             location: {
                 center: [-89.23958509830771, 30.315668959405787], 
