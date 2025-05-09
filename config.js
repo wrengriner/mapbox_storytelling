@@ -324,7 +324,7 @@ var config = {
     },
     {
             id: 'chapter-fifteen',
-            alignment: 'fully',
+            alignment: 'centered',
             hidden: false,
             title: 'Conclusion',
             image: '',
