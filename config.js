@@ -16,7 +16,7 @@ var config = {
     use3dTerrain: false, //set true for enabling 3D maps.
     auto: false,
     title: 'Mapping The South: Economy and Position',
-    subtitle: 'The Economic and locality Comparison of Women and Men Across The South',
+    subtitle: 'The Economic and Locality Comparison of Women and Men Across The South',
     byline: 'Wren Griner and Chloe Holloway',
     footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
     chapters: [
