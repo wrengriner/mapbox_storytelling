@@ -118,7 +118,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Eatonville',
-            image: './assets/color_purple_field.jpg',
+            image: '',
             description: 'Her second husband, Jody Starks, is much more doting. He is also well off, but he treats Janie like an equal, in the beginning at least. During her marriage to him, Janie is able to make her own purchases and instigate economic activity. This is where female authors like Hurston start to separate from classic male authors like Faulkner. There is plenty of data depicting general economic exchanges and they are made by both male and female characters alike. Again, the main difference is the thing being purchased. When Janie makes a purchase, it is just as likely to be for a service or for food as it is a good, unlike most male protagonists. This further proves that she cares more about having happy experiences. Most women are likely the same as they’ve grown accustomed to not asking for a lot and making the most of what they already have, especially at the time the novel is set.',
             location: {
                 center: [-81.38643808791495, 28.618579170446417], 
@@ -137,7 +137,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'Everglades',
-            image: './assets/color_purple_field.jpg',
+            image: './assets/everglades.jpg',
             description: 'Alice Walker’s novel includes characters with some of the most diverse demographics one can find in Southern Literature. Telling the story of a black queer woman named Celie who has experienced sexual abuse most of her life, taboo topics are bound to appear. Almost every purchase made in this novel was a good or service, regardless of gender. A big theme is the idea that women, even black queer women, should be able to enjoy the same pleasures. This shows how female authors acount for more autonomy of female characters as well as more attention of feminine stories.',
             location: {
                 center: [-80.44804338021213, 26.880865479163457], 
@@ -156,7 +156,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'The Color Purple: Georgia',
-            image: './assets/color_purple_field.jpg',
+            image: './assets/tcp.jpg',
             description: 'Alice Walker’s novel includes characters with some of the most diverse demographics one can find in Southern Literature. Telling the story of a black queer woman named Celie who has experienced sexual abuse most of her life, taboo topics are bound to appear. Almost every purchase made in this novel was a good or service, regardless of gender. A big theme is the idea that women, even black queer women, should be able to enjoy the same pleasures. This shows how female authors acount for more autonomy of female characters as well as more attention of feminine stories. Telling the story of a black queer woman named Celie who has experienced sexual abuse most of her life, taboo topics are bound to appear. Almost every purchase made in this novel was a good or service, regardless of gender. A big theme is the idea that women, even black queer women, should be able to enjoy the same pleasures. This shows how female authors acount for more autonomy of female characters as well as more attention of feminine stories.',
             location: {
                 center: [-83.5600, 33.0095], 
@@ -175,7 +175,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'Memphis',
-            image: './assets/color_purple_field.jpg',
+            image: '',
             description: 'Shug Avery is another central female character that is the driving force for Celie’s personal journey. She is responsible for a major instance of movement when her and Celie go to Memphis. Given that this section of the novel is so focused on them, it makes sense that most of the data collected is from female purchasers. While they experience societal barriers, they are able to overcome them. This detail of female-written stories differs greatly from Faulkner. While both acknowledge obstacles are present, female authors are more likely to include female perseverance in their writing.',
             location: {
                 center: [-90.06958208625237, 35.15221330647191], 
@@ -213,7 +213,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'Salvage The Bones: St Catherine',
-            image: './assets/color_purple_field.jpg',
+            image: './assets/stb.jpg',
             description: 'The most modern novel of the set, gender norms are not quite the same as those say in As I Lay Dying or The Color Purple. However, the lower class, rural town in which it is set especially with the protagonists being lower class people of color, enables some stereotypes to endure. With the impending landfall of hurricane Katrina, there is little economic data in the novel given that purchasing things is not the priority for the Batiste family. Though transportation is more easily accessed, the family’s socioeconomic status is an obstacle to evacuating.',
             location: {
                 center: [-89.23958509830771, 30.315668959405787], 
@@ -251,7 +251,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'Batiste House',
-            image: './assets/color_purple_field.jpg',
+            image: '',
             description: 'Because of the Batiste’s socioeconomic standing, their economic exchanges look different than the other novels. A common occurrence Salvage the Bones is the commitment of theft. Furthermore, an impending disaster is bound to increase the desperation of these characters who were unable to evacuate. Esch is just as likely to commit theft as her brothers and male friends. This variety in economic activity, despite few female characters, is not something often seen from male authors, particularly in the realm of southern literature.',
             location: {
                 center: [-89.26806244331303, 30.400637931513852], 
