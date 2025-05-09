@@ -100,7 +100,7 @@ var config = {
             hidden: false,
             title: 'Their Eyes Were Watching God: Orlando',
             image: './assets/color_purple_field.jpg',
-            description: 'Because of the nature of the story, there is a lot more data to interpret for this novel. When looking at economic exchanges for men and women, men tend to buy more goods, and women vary in their purchases. A drawable conclusion from this is that southern men are more materialistic. Furthermore, this novel travels to more urban areas like Orlando. In large cities, more economic opportunities are available. The main plot of this novel surrounds the life of Janie, a lower class black woman who cares more about being happy than being comfortable. Her first marriage was arranged by her grandmother who thought the man, Logan, would provide for her and ensure a safe and secure life. He buys Janie a donkey, among other material things, however he never shows love for her. He treats her more like domestic help than a wife',
+            description: 'Because of the nature of the story, there is a lot more data to interpret for this novel. When looking at economic exchanges for men and women, men tend to buy more goods, and women vary in their purchases. A drawable conclusion from this is that southern men are more materialistic. Furthermore, this novel travels to more urban areas like Orlando. In large cities, more economic opportunities are available. The main plot of this novel surrounds the life of Janie, a lower class black woman who cares more about being happy than being comfortable. Her first marriage was arranged by her grandmother who thought the man, Logan, would provide for her and ensure a safe and secure life. He buys Janie a donkey, among other material things, however he never shows love for her. He treats her more like domestic help than a wife.',
             location: {
                 center: [-41.47212410646295, 34.781162343274076], 
                 zoom: 6.5,
@@ -138,7 +138,7 @@ var config = {
             hidden: false,
             title: 'Everglades',
             image: './assets/color_purple_field.jpg',
-            description: 'Throughout her life, the time where she describes being most content is being married to Tea Cake, her third husband. He is not as wealthy as the first two, and is generally irresponsible with money. Despite that, she does not resent him for it, because she is happy with him. There is a lot of economic data from Tea Cake, almost entirely goods. As a lower class man, he is eager to buy things once he has enough money, especially given gender norms that paint men as owning more. Janie never experiences his greed because of the same gender norm for women.',
+            description: 'Alice Walker’s novel includes characters with some of the most diverse demographics one can find in Southern Literature. Telling the story of a black queer woman named Celie who has experienced sexual abuse most of her life, taboo topics are bound to appear. Almost every purchase made in this novel was a good or service, regardless of gender. A big theme is the idea that women, even black queer women, should be able to enjoy the same pleasures. This shows how female authors acount for more autonomy of female characters as well as more attention of feminine stories.',
             location: {
                 center: [-41.47212410646295, 34.781162343274076], 
                 zoom: 6.5,
@@ -157,7 +157,7 @@ var config = {
             hidden: false,
             title: 'The Color Purple: Georgia',
             image: './assets/color_purple_field.jpg',
-            description: 'Alice Walker’s novel includes characters with some of the most diverse demographics one can find in Southern Literature. Telling the story of a black queer woman named Celie who has experienced sexual abuse most of her life, taboo topics are bound to appear. Almost every purchase made in this novel was a good or service, regardless of gender. A big theme is the idea that women, even black queer women, should be able to enjoy the same pleasures. This shows how female authors acount for more autonomy of female characters as well as more attention of feminine stories.',
+            description: 'Alice Walker’s novel includes characters with some of the most diverse demographics one can find in Southern Literature. Telling the story of a black queer woman named Celie who has experienced sexual abuse most of her life, taboo topics are bound to appear. Almost every purchase made in this novel was a good or service, regardless of gender. A big theme is the idea that women, even black queer women, should be able to enjoy the same pleasures. This shows how female authors acount for more autonomy of female characters as well as more attention of feminine stories. Telling the story of a black queer woman named Celie who has experienced sexual abuse most of her life, taboo topics are bound to appear. Almost every purchase made in this novel was a good or service, regardless of gender. A big theme is the idea that women, even black queer women, should be able to enjoy the same pleasures. This shows how female authors acount for more autonomy of female characters as well as more attention of feminine stories.',
             location: {
                 center: [-41.47212410646295, 34.781162343274076], 
                 zoom: 8.00,
@@ -212,9 +212,9 @@ var config = {
             id: 'chapter-nine',
             alignment: 'right',
             hidden: false,
-            title: 'Salvage The Bones: Batiste house',
+            title: 'Salvage The Bones: St Catherine',
             image: './assets/color_purple_field.jpg',
-            description: 'The most modern novel of the set, gender norms are not quite the same as those say in As I Lay Dying or The Color Purple. However, the lower class, rural town in which it is set especially with the protagonists being lower class people of color, enables some stereotypes to endure. With the impending landfall of hurricane Katrina, there is little economic data in the novel given that purchasing things is not the priority for the Batiste family. Though the story is set more modern, and transportation is more easily accessed, the family’s socioeconomic status is an obstacle to evacuating. Similar to As I Lay Dying, there is movement required for most economic purchases.',
+            description: 'The most modern novel of the set, gender norms are not quite the same as those say in As I Lay Dying or The Color Purple. However, the lower class, rural town in which it is set especially with the protagonists being lower class people of color, enables some stereotypes to endure. With the impending landfall of hurricane Katrina, there is little economic data in the novel given that purchasing things is not the priority for the Batiste family. Though transportation is more easily accessed, the family’s socioeconomic status is an obstacle to evacuating.',
             location: {
                 center: [-41.47212410646295, 34.781162343274076], 
                 zoom: 6.5,
@@ -231,9 +231,9 @@ var config = {
             id: 'chapter-ten',
             alignment: 'left',
             hidden: false,
-            title: 'End',
+            title: '',
             image: './assets/color_purple_field.jpg',
-            description: 'Close of the novel.',
+            description: 'Similar to As I Lay Dying, there is movement required for most economic purchases. Jesmyn Ward intentionally takes inspiration from Faulkner’s classic, and that is evident in the fact that there are few female characters in this novel at all. Esch, the protagonist and one of the only women in the entire novel, is clearly inspired by Dewey Dell. However, the main difference between the two girls is how the author’s depict them. Despite being limited by her class and the obstacle of a teen pregnancy, Esch still exhibits autonomy and confidence in her decisions, especially given that she serves as the first person narrator of the novel.',
             location: {
                 center: [-41.47212410646295, 34.781162343274076], 
                 zoom: 8.00,
@@ -250,9 +250,9 @@ var config = {
             id: 'chapter-eleven',
             alignment: 'right',
             hidden: false,
-            title: 'End',
+            title: 'Batiste House',
             image: './assets/color_purple_field.jpg',
-            description: 'Close of the novel.',
+            description: 'Because of the Batiste’s socioeconomic standing, their economic exchanges look different than the other novels. A common occurrence Salvage the Bones is the commitment of theft. Furthermore, an impending disaster is bound to increase the desperation of these characters who were unable to evacuate. Esch is just as likely to commit theft as her brothers and male friends. This variety in economic activity, despite few female characters, is not something often seen from male authors, particularly in the realm of southern literature.',
             location: {
                 center: [-41.47212410646295, 34.781162343274076], 
                 zoom: 6.5,
