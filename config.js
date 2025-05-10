@@ -294,9 +294,9 @@ var config = {
             description: 'There are several areas throughout each novel where data falls short in truly describing the story being told. As I Lay Dying is predominantly a movement-based novel with the story depicting a journey from one location to another. However, the sheer amount of movement data severely overshadows the few economic data points. This is especially true given that a lot of movement is small, like from the Bundren house to the barn or vice versa. With so many movement data points, it makes female economic autonomy seem even slimmer. Data from Salvage the Bones appears very similar given the purposeful parallels between the two novels. Because of this, the data falls short in the similar ways pertaining to movement. However, the presence of a first-person female protagonist accounts for more female economic data that is slightly less overshadowed than Faulkner’s data.',
             location: {
                 center: [-41.47212410646295, 34.781162343274076], 
-                zoom: 8.00,
-                pitch: 45.0,
-                bearing: 0.00
+                zoom: 3,
+                pitch: 30,
+                bearing: 0
             },
             mapAnimation: 'flyTo',
             rotateAnimation: true,
@@ -313,9 +313,9 @@ var config = {
             description: 'Hurston’s novel depicts a journey of self-discovery and autonomy. Janie is willing to work and struggle as long as she is happy and with someone she loves. However, the data doesn’t account for those struggles, only the economic activity and movement that characters do accomplish. The circumstances in which Janie and other characters make purchases are not represented in their entirety. While there are still comparisons to be made between male purchases and female ones, there is no implication whether or not they were voluntary. In The Color Purple, most of the data, whether economic or movement, is from women. Since the plot revolved around the lives of several female protagonists—Celie, Nettie, and occasionally Shug Avery—it’s not shocking that they make up most of the data. Similar to Hurston, that doesn’t account for the fact that there were still obstacles to their ability to have autonomy. It also doesn’t account for time, meaning over how long the data was collected. The novel spans most of Celie’s life, so the data points are more spread out than they look.',
             location: {
                 center: [-41.47212410646295, 34.781162343274076], 
-                zoom: 6.5,
-                pitch: 60,
-                bearing: -43.2,
+                zoom: 3,
+                pitch: 30,
+                bearing: 0
             },
             mapAnimation: 'flyTo',
             rotateAnimation: true,
