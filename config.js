@@ -115,7 +115,7 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'chapter-three',
+            id: 'chapter-four',
             alignment: 'left',
             hidden: false,
             title: 'Their Eyes Were Watching God: Orlando',
@@ -134,8 +134,8 @@ var config = {
             onChapterExit: []
         },
         {            
-            id: 'chapter-four',
-            alignment: 'left',
+            id: 'chapter-five',
+            alignment: 'right',
             hidden: false,
             title: 'Eatonville',
             image: '',
@@ -153,8 +153,8 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'chapter-five',
-            alignment: 'right',
+            id: 'chapter-six',
+            alignment: 'left',
             hidden: false,
             title: 'Everglades',
             image: './assets/everglades.jpg',
@@ -172,8 +172,8 @@ var config = {
              onChapterExit: []            
         },
         {
-            id: 'chapter-six',
-            alignment: 'left',
+            id: 'chapter-seven',
+            alignment: 'right',
             hidden: false,
             title: 'The Color Purple: Georgia',
             image: './assets/tcp.jpg',
@@ -191,8 +191,8 @@ var config = {
             onChapterExit: []            
         },
         {
-            id: 'chapter-seven',
-            alignment: 'right',
+            id: 'chapter-eight',
+            alignment: 'left',
             hidden: false,
             title: 'Memphis',
             image: '',
@@ -210,8 +210,8 @@ var config = {
             onChapterExit: []            
         },
         {
-            id: 'chapter-eight',
-            alignment: 'left',
+            id: 'chapter-nine',
+            alignment: 'right',
             hidden: false,
             title: 'Africa',
             image: './assets/color_purple_field.jpg',
@@ -229,8 +229,8 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'chapter-nine',
-            alignment: 'right',
+            id: 'chapter-ten',
+            alignment: 'left',
             hidden: false,
             title: 'Salvage The Bones: St Catherine',
             image: './assets/stb.jpg',
@@ -248,8 +248,8 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'chapter-ten',
-            alignment: 'left',
+            id: 'chapter-eleven',
+            alignment: 'right',
             hidden: false,
             title: '',
             image: '',
@@ -267,8 +267,8 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'chapter-eleven',
-            alignment: 'right',
+            id: 'chapter-twelve',
+            alignment: 'left',
             hidden: false,
             title: 'Batiste House',
             image: '',
@@ -286,7 +286,7 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'chapter-twelve',
+            id: 'chapter-thirteen',
             alignment: 'centered',
             hidden: false,
             title: 'Data falls short. . . (locations????)',
@@ -305,7 +305,7 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'chapter-thirteen',
+            id: 'chapter-fourteen',
             alignment: 'centered',
             hidden: false,
             title: '',
@@ -316,25 +316,6 @@ var config = {
                 zoom: 6.5,
                 pitch: 60,
                 bearing: -43.2,
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: true,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-    },
-    {
-            id: 'chapter-fourteen',
-            alignment: 'left',
-            hidden: false,
-            title: '',
-            image: '',
-            description: '',
-            location: {
-                center: [-41.47212410646295, 34.781162343274076], 
-                zoom: 8.00,
-                pitch: 45.0,
-                bearing: 0.00
             },
             mapAnimation: 'flyTo',
             rotateAnimation: true,
